@@ -1,4 +1,7 @@
 package app.psych.game.model;
 
-public class RoundStatus {
+public enum  RoundStatus {
+    SUBMITTING_ANSWERS,
+    SELECTING_ANSWERS,
+    OVER
 }

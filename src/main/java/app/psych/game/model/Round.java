@@ -33,4 +33,8 @@ public class Round extends Auditable {
     @Getter
     @Setter
     private Map<Player, PlayerAnswer> playerAnswers;
+
+    @Getter
+    @Setter
+    private RoundStatus roundStatus = RoundStatus.SUBMITTING_ANSWERS;
 }
